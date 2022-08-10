@@ -59,6 +59,7 @@ p {
      display: block;
      margin: 0 auto;
      border-radius: 8px;
+     
 }
 #form input {
     width: 25%;
@@ -69,6 +70,9 @@ p {
     box-sizing: border-box;
     margin-bottom: 10px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 
 }
 #button {
@@ -79,9 +83,11 @@ p {
 }
 
 table{
-    margin: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
 
    th {
